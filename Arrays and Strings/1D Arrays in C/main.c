@@ -24,5 +24,7 @@ int main() {
 
   printf("%d\n", sum_aux);
 
+  free(arr); // Free allocated memory ´-´ 
+
   return 0;
 }
